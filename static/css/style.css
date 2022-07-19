@@ -1,0 +1,22 @@
+.navbar{
+    padding: 3% 10% 1% 10%;
+    background-color: #000000;
+}
+
+#info{
+    padding: 17% 10% 3% 10%;
+    color: #fff;
+    background-color: #000000;
+}
+
+#top-10-songs {
+    padding: 3% 10%;
+}
+
+.column-title {
+    text-align: center;
+}
+
+.artwork img {
+    width: 20%;
+}
