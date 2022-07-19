@@ -1,0 +1,21 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% include "header.html" %}
+
+  <section id="info">
+    <h3>Adding a new song</h3>
+  </section>
+
+  <section id="form">
+    <div class="text-end">
+        <button type="button" class="btn btn-outline-dark add-btn">+ Add Artist</button>
+      </div>
+    <div class="form">
+        {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "success"}) }}
+    </div>
+    
+  </section>
+  
+        
+
+
+{% include "footer.html" %}
